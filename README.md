@@ -30,9 +30,11 @@ It demonstrates a complete NLP + ML workflow, including text preprocessing, vect
 customer-service-ai-chatbot/
 
 │── data/
+
 │   └── customer_service_chatbot_dataset_v2.xlsx
 
 │── notebooks/
+
 │   └── Customer Service AI Chatbot.ipynb
 
 │── requirements.txt
