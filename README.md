@@ -28,22 +28,29 @@ It demonstrates a complete NLP + ML workflow, including text preprocessing, vect
 
 ##  Folder Structure
 customer-service-ai-chatbot/
+
 │── data/
+
 │   └── customer_service_chatbot_dataset_v2.xlsx
+
 │── notebooks/
+
 │   └── Customer Service AI Chatbot.ipynb
+
 │── requirements.txt
+
 └── README.md
+
 
 ------------------------------------------------------------
 
 ##  How to Run the Project
 
 1️⃣ Install Dependencies
-     pip install -r requirements.txt
+         pip install -r requirements.txt
 
 2️⃣ Open the Notebook
-     jupyter notebook "Customer Service AI Chatbot.ipynb"
+         jupyter notebook "Customer Service AI Chatbot.ipynb"
 
 3️⃣ Run All Cells
 This will:
