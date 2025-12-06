@@ -47,17 +47,24 @@ customer-service-ai-chatbot/
 ##  How to Run the Project
 
 1️⃣ Install Dependencies
+        
          pip install -r requirements.txt
 
 2️⃣ Open the Notebook
+        
          jupyter notebook "Customer Service AI Chatbot.ipynb"
 
 3️⃣ Run All Cells
 This will:
+ 
   • Load & preprocess the dataset
+  
   • Vectorize text using NLP techniques
+  
   • Train a classification model
+  
   • Evaluate accuracy
+  
   • Generate chatbot responses for new queries
 
 ------------------------------------------------------------
