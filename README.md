@@ -84,15 +84,16 @@ This will:
 
 ------------------------------------------------------------
 
-## 📝 Project Status
+##  Project Status
 This project is complete and not planned for further updates.
 Developed for learning and demonstrating NLP-based machine learning workflows.
 
 ------------------------------------------------------------
 
-## 👨‍💻 Author
+##  Author
 Arelli Sanjay
 Aspiring LLM App Developer & AI Full-Stack Engineer
 
 📧 Email: arellissanjay1105@gmail.com
+
 🔗 LinkedIn: https://www.linkedin.com/in/sanjay-arelli-2b0970383
