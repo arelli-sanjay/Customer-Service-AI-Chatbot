@@ -1,100 +1,85 @@
-#  Customer Service AI Chatbot | NLP + Machine Learning Project
+#  Customer Service AI Chatbot 
 
-This project implements a Customer Service AI Chatbot that classifies user queries and generates automated support responses.
-It demonstrates a complete NLP + ML workflow, including text preprocessing, vectorization, model training, accuracy evaluation, and prediction.
+## Overview
 
-------------------------------------------------------------
+Customer Service AI Chatbot is an NLP (Natural Language Processing) and Machine Learning project designed to automate customer support by offering answers to common user questions through an interactive chat interface. The chatbot takes the user's input, understands what they are trying to achieve with each query and then generates the most appropriate response from the model it has been trained on.
 
-##  Features
-- Classifies customer queries into predefined categories
-- Generates automated responses using ML predictions
-- Text preprocessing pipeline (cleaning, stopwords, vectorization)
-- Train–test split with accuracy evaluation
-- Easy-to-run Jupyter Notebook
-- Beginner-friendly and structured ML/NLP workflow
+I developed this project to get practical experience with NLP techniques, text preprocessing, machine learning, and conversational AI. I wanted to see how intelligent chatbots can improve customer support and enhance user satisfaction.
 
-------------------------------------------------------------
+## Features 
 
-##  Tech Stack
+### Smart Discussions
+- Answers customer questions in real-time
+- NLP understands the intent of the user
+- Provides automatic answers to common questions
+
+### Natural-language processing
+- Text pre-processing
+- Tokenization 
+- Remove stop words
+- Lemmatization 
+- Text normalization
+
+### Machine Learning 
+- Trained on customer support chat
+- Recognize intent
+- Prediction of response
+- Fast query execution
+
+ ### User experience
+- Basic chat interface
+- Rapid response creation
+- User friendly interaction flow
+
+## Tech Stack
+
+### Programming Language
 - Python
-- NumPy
-- Pandas
-- Scikit-Learn
+
+### Machine Learning & NLP
+- Scikit-learn
 - NLTK
-- Matplotlib
+
+### Libraries
+- Pandas
+- NumPy
+- Regular Expressions
+
+### Development Tools
 - Jupyter Notebook
+- Git
+- GitHub
+- Visual Studio Code
 
-------------------------------------------------------------
+## How the Project Woeks ?
 
-##  Folder Structure
-customer-service-ai-chatbot/
+1. Import the customer support dataset.
+2. Clean and pre-process user’s queries.
+3. Transform text to numeric features.
+4. Train machine learning model.
+5. Predict the intent of incoming user messages.
+6. Choose the best answer.
+7. Continue talking until the user exits. 
 
-│── data/
+## Installation 
 
-│   └── customer_service_chatbot_dataset_v2.xlsx
+### Open Project
 
-│── notebooks/
+1. Clone or Download the repo.
+2. Open the project folder on Jupyter notebook or Visual Studio Code.
+3. Install all required python libraries.
+4. Run the notebook or python script.
+5. Open the conversation with AI chatbot.
 
-│   └── Customer Service AI Chatbot.ipynb
+## What I Learned
 
-│── requirements.txt
+Building this project helped me understand how Natural Language Processing and machine learning can be combined to create conversational AI systems that understand user queries and generate meaningful responses.
 
-└── README.md
+## Author
 
+**ARELLI SANJAY**
+- GitHub: https://github.com/arelli-sanjay
+- Linkedin: https://www.linkedin.com/in/sanjay-arelli-2b0970383/
 
-------------------------------------------------------------
-
-##  How to Run the Project
-
-1️⃣ Install Dependencies
-        
-         pip install -r requirements.txt
-
-2️⃣ Open the Notebook
-        
-         jupyter notebook "Customer Service AI Chatbot.ipynb"
-
-3️⃣ Run All Cells
-This will:
- 
-  • Load & preprocess the dataset
-  
-  • Vectorize text using NLP techniques
-  
-  • Train a classification model
-  
-  • Evaluate accuracy
-  
-  • Generate chatbot responses for new queries
-
-------------------------------------------------------------
-
-##  Model Workflow
-1. Load and inspect dataset
-2. Clean text (lowercase, punctuation removal, stopwords)
-3. Vectorize text (TF-IDF or CountVectorizer)
-4. Apply classification model
-5. Evaluate using accuracy score
-6. Predict responses for user queries
-
-------------------------------------------------------------
-
-## Output
-![alt text](<Screenshot 2025-12-06 210249.png>)
-
-------------------------------------------------------------
-
-##  Project Status
-This project is complete and not planned for further updates.
-Developed for learning and demonstrating NLP-based machine learning workflows.
-
-------------------------------------------------------------
-
-##  Author
-Arelli Sanjay
-
-Aspiring LLM App Developer & AI Full-Stack Engineer
-
-📧 Email: arellissanjay1105@gmail.com
-
-🔗 LinkedIn: https://www.linkedin.com/in/sanjay-arelli-2b0970383
+## Support
+If you like the Customer Service AI Chatbot consider giving it a star, on GitHub.
